@@ -11,6 +11,8 @@ URL:		http://openib.org/
 BuildRequires:	libibverbs-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+%undefine	__cxx
+
 %description
 libcxgb3 is a userspace driver for the Chelsio T3 iWARP RNIC. It works
 as a plug-in module for libibverbs that allows programs to use Chelsio
@@ -33,8 +35,8 @@ Static version of cxgb3 driver, which may be linked directly into
 application.
 
 %description static -l pl.UTF-8
-Statyczna wersja sterownika cxgb3, którą można wbudować bezpośrednio
-w aplikację.
+Statyczna wersja sterownika cxgb3, którą można wbudować bezpośrednio w
+aplikację.
 
 %prep
 %setup -q -n libcxgb3-%{version}
