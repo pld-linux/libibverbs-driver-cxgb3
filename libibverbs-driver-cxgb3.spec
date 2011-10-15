@@ -1,12 +1,12 @@
 Summary:	Userspace driver for the Chelsio T3 iWARP RNIC
 Summary(pl.UTF-8):	Sterownik przestrzeni użytkownika dla kart Chelsio T3 iWARP RNIC
 Name:		libibverbs-driver-cxgb3
-Version:	1.3.0
+Version:	1.3.1
 Release:	1
 License:	BSD or GPL v2
 Group:		Libraries
 Source0:	http://www.openfabrics.org/downloads/cxgb3/libcxgb3-%{version}.tar.gz
-# Source0-md5:	40a8c9013de84c4a662cf451a4b5a534
+# Source0-md5:	2a0929159acdd9d69da91e2fb2b746da
 URL:		http://openib.org/
 BuildRequires:	libibverbs-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
