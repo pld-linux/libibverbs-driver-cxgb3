@@ -1,8 +1,9 @@
+# NOTE: for versions >= 17 see rdma-core.spec
 Summary:	Userspace driver for the Chelsio T3 iWARP RNIC
 Summary(pl.UTF-8):	Sterownik przestrzeni użytkownika dla kart Chelsio T3 iWARP RNIC
 Name:		libibverbs-driver-cxgb3
 Version:	1.3.1
-Release:	1
+Release:	1.1
 License:	BSD or GPL v2
 Group:		Libraries
 Source0:	http://www.openfabrics.org/downloads/cxgb3/libcxgb3-%{version}.tar.gz
